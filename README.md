@@ -6,7 +6,7 @@ mosquitto_pub
 jq
 
 Copy zte.ze to home folder:
-cp zte.sh ~/scripts/zte.sh
+`cp zte.sh ~/scripts/zte.sh`
 
 Add it to crone for examlpe every 10 minutes:
 */10 * * * * root       /home/luk/scripts/zte.sh
