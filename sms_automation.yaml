@@ -1,0 +1,20 @@
+alias: New_SMS
+description: ""
+trigger:
+  - platform: state
+    entity_id:
+      - sensor.sms_internet_number
+    from: "0"
+condition: []
+action:
+  - service: notify.mobile_app_sm_g780g
+    data:
+      data:
+        ttl: 0
+        priority: high
+        clickAction: lovelace/default_view
+        vibrationPattern: 100, 1000, 100, 1000, 100
+        channel: Motion
+        renotify: 1
+      message: SMS:{{ states('sensor.sms_internet_state') }}
+mode: single
