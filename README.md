@@ -20,6 +20,8 @@ MSG - last SMS,
 L15,
 Uptime.
 
+![My Image](HA.jpg)
+
 Additionaly I set up automation `/sms_automation.yaml/` which push notification containing SMS to my phone.
 
 
