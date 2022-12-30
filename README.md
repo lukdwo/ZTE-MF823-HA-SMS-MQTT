@@ -22,7 +22,7 @@ Uptime.
 
 ![My Image](HA.jpg)
 
-Additionaly I set up automation `/sms_automation.yaml/` which push notification containing SMS to my phone.
+Additionaly I set up automation [sms_automation.yaml](sms_automation.yaml) which push notification containing SMS to my phone.
 
 
 
